@@ -1,13 +1,12 @@
 .contactSectionBg {
-  min-height: 100vh;
+  min-height: 60vh;
   width: 100vw;
   background: linear-gradient(135deg, #1a181b 60%, #ff2d2d 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0 0 4rem 0;
-  justify-content: center; /* Centraliza verticalmente */
-  padding: 2rem 0; /* Reduz o espaço acima e abaixo */
+  padding: 10rem 0; /* Reduz o espaço acima e abaixo */
 }
 
 .title {
@@ -220,5 +219,74 @@
   .sendButton {
     font-size: 1rem;
     padding: 0.8rem 0;
+  }
+}
+/* Ajustes para tablets e telas médias */
+@media (max-width: 900px) {
+  .contactGrid {
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: center;
+    width: 100%;
+    max-width: 100vw;
+  }
+  .form {
+    max-width: 95vw;
+    min-width: 0;
+    width: 100%;
+  }
+  .infoSide {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+/* Ajustes para celulares */
+@media (max-width: 600px) {
+  .contactSectionBg {
+    padding: 1rem 0;
+  }
+  .title {
+    font-size: 1.3rem;
+    margin-top: 1.2rem;
+  }
+  .subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+    padding: 0 0.5rem;
+  }
+  .contactGrid {
+    gap: 1rem;
+    padding: 0 0.5rem;
+  }
+  .form {
+    padding: 0.7rem 0.2rem;
+    gap: 0.5rem;
+    max-width: 100vw;
+    width: 100%;
+  }
+  .input,
+  .textarea {
+    font-size: 0.92rem;
+    padding: 0.6rem;
+  }
+  .sendButton {
+    font-size: 0.95rem;
+    padding: 0.7rem 0;
+  }
+  .infoBox,
+  .freelanceBox {
+    padding: 0.7rem 0.7rem;
+    font-size: 0.95rem;
+  }
+}
+
+/* Pequenos ajustes para telas muito pequenas */
+@media (max-width: 400px) {
+  .form {
+    padding: 0.3rem 0.1rem;
+  }
+  .title {
+    font-size: 1rem;
   }
 }
