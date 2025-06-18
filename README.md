@@ -62,6 +62,7 @@ No diretório do projeto, você pode rodar:
 
  Melhorias contínuas no layout e responsividade  
  Planejamento para integração com back-end
+ 
 
 ---
 
