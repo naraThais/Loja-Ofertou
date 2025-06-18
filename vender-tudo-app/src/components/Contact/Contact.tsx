@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
         Facebook!
       </p>
       <a
-        href="https://facebook.com"
+        href="https://www.facebook.com/profile.php?id=61577401293092"
         target="_blank"
         rel="noopener noreferrer"
         className={styles.facebookButton}
