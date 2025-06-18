@@ -1,9 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import BackgroundShapes from "./BackgroundShapes";
 import "./Hero.css";
 
 const Hero: React.FC = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="hero">
       <BackgroundShapes />
@@ -39,8 +42,18 @@ const Hero: React.FC = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1 }}
             >
-              <button className="btn-primary">Entre em Contato</button>
-              <button className="btn-secondary">Saiba Mais</button>
+              <button
+                className="btn-primary"
+                onClick={() => window.open("https://facebook.com", "_blank")}
+              >
+                Entre em Contato
+              </button>
+              <button
+                className="btn-secondary"
+                onClick={() => navigate("/sobre")}
+              >
+                Saiba Mais
+              </button>
             </motion.div>
           </motion.div>
         </div>
