@@ -44,7 +44,12 @@ const Hero: React.FC = () => {
             >
               <button
                 className="btn-primary"
-                onClick={() => window.open("https://facebook.com", "_blank")}
+                onClick={() =>
+                  window.open(
+                    "https://www.facebook.com/profile.php?id=61577401293092",
+                    "_blank"
+                  )
+                }
               >
                 Entre em Contato
               </button>
