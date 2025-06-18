@@ -26,7 +26,7 @@ Este projeto foi construído com:
 ---
 ## 📂 Estrutura de Pastas
 
-```html
+```
 vender-tudo-app/
 ├── public/
 ├── src/
@@ -36,9 +36,9 @@ vender-tudo-app/
 │   └── index.tsx
 ├── README.md
 ├── package.json
-
+└── tsconfig.json
 ---
-
+```
 ## Scripts Disponíveis
 
 No diretório do projeto, você pode rodar:
