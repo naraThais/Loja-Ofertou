@@ -24,18 +24,18 @@ Este projeto foi construído com:
 - [Lucide React](https://lucide.dev/) (ícones)
 
 ---
-
 ## 📂 Estrutura de Pastas
+
+```html
 vender-tudo-app/
 ├── public/
 ├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── App.tsx
-│ └── index.tsx
+│   ├── components/
+│   ├── pages/
+│   ├── App.tsx
+│   └── index.tsx
 ├── README.md
 ├── package.json
-└── tsconfig.json
 
 ---
 
