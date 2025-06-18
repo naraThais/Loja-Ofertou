@@ -2,8 +2,7 @@
 
 Uma landing page moderna e responsiva desenvolvida para apresentar a loja **Vender Tudo**, focada em destacar a marca  e converter visitantes em clientes através de um design impactante.
 
-https://loja-ofertou-app.vercel.app
-
+https://ofertou-15st38u1e-narathais-projects.vercel.app
 ---
 
 
